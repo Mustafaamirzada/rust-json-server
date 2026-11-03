@@ -1,0 +1,198 @@
+{
+  "health": [
+    {
+      "message": "App Running"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "Getting Started with Dart",
+      "views": 120,
+      "published": true,
+      "author": {
+        "name": "Alice"
+      },
+      "tags": [
+        "dart",
+        "backend"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "REST APIs with Dart",
+      "views": 340,
+      "published": true,
+      "author": {
+        "name": "Bob"
+      },
+      "tags": [
+        "api",
+        "rest"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Understanding JSON",
+      "views": 85,
+      "published": false,
+      "author": {
+        "name": "Alice"
+      },
+      "tags": [
+        "json"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Building a CLI Tool",
+      "views": 210,
+      "published": true,
+      "author": {
+        "name": "Carol"
+      },
+      "tags": [
+        "cli",
+        "dart"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Testing Dart Applications",
+      "views": 450,
+      "published": true,
+      "author": {
+        "name": "Bob"
+      },
+      "tags": [
+        "testing"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Deploying Dart Servers",
+      "views": 60,
+      "published": false,
+      "author": {
+        "name": "Carol"
+      },
+      "tags": [
+        "deployment"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Working with HTTP Requests",
+      "views": 300,
+      "published": true,
+      "author": {
+        "name": "Alice"
+      },
+      "tags": [
+        "http"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Data Persistence Basics",
+      "views": 175,
+      "published": true,
+      "author": {
+        "name": "Bob"
+      },
+      "tags": [
+        "storage"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Error Handling Patterns",
+      "views": 230,
+      "published": false,
+      "author": {
+        "name": "Carol"
+      },
+      "tags": [
+        "errors"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Securing Your API",
+      "views": 510,
+      "published": true,
+      "author": {
+        "name": "Alice"
+      },
+      "tags": [
+        "security"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Pagination Strategies",
+      "views": 95,
+      "published": true,
+      "author": {
+        "name": "Bob"
+      },
+      "tags": [
+        "pagination"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Performance Tips",
+      "views": 410,
+      "published": true,
+      "author": {
+        "name": "Carol"
+      },
+      "tags": [
+        "performance"
+      ]
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "postId": 1,
+      "body": "Great introduction!"
+    },
+    {
+      "id": 2,
+      "postId": 1,
+      "body": "Helped me a lot."
+    },
+    {
+      "id": 3,
+      "postId": 2,
+      "body": "Clear explanation of REST."
+    },
+    {
+      "id": 4,
+      "postId": 4,
+      "body": "The CLI example was useful."
+    },
+    {
+      "id": 5,
+      "postId": 2,
+      "body": "Can you add authentication examples?"
+    },
+    {
+      "id": 6,
+      "postId": 10,
+      "body": "Security section is excellent."
+    },
+    {
+      "id": 7,
+      "postId": 7,
+      "body": "HTTP basics explained well."
+    }
+  ],
+  "profile": {
+    "name": "Mustafa",
+    "role": "admin",
+    "active": true
+  }
+}
